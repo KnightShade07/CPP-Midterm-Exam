@@ -9,11 +9,6 @@ using namespace std;
 
 int harmonicMeans();
 
-string capEs(string cappedWord);
-
-int binaryToDecimal(int num);
-
-vector<int> removeConsecutiveDuplicates(vector<int> &vec);
 
 int main() {
 	// problem 1 test
@@ -101,26 +96,32 @@ int harmonicMeans() {
 	int y;
 	//variable used to store our equation
 	float harmMeansEquation;
+	bool runProgram =  true;
 
 	//Step 2: User Input
+	cout << "Enter 2 integer (whole) numbers: ";
 	cin >> x;
 	cin >> y;
 	//Step 3: While Loop
 
-	while (x != 0 || y != 0)
+	
+
+	while (runProgram)
 	{
 		//Step 4:  Equation  & Console Output
 		harmMeansEquation = 2.0 * x * y / (x + y);
 
 		cout << "The harmonic mean of " << x << " and " << y << " is" << harmMeansEquation;
 
+		if (x || y == 0)
+		{
+			runProgram = false;
+		}
+		
+
 	}
 
-	return 0;
-	
-
-	
-	
+	return 0;	
 
 }
 

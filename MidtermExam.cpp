@@ -91,29 +91,27 @@ Enter two integer values: 2 0
  **/
 
 int harmonicMeans() {
-	//Step 1: Define Variables
 	int x;
 	int y;
-	//variable used to store our equation
 	float harmMeansEquation;
-	bool runProgram =  true;
-
-	//Step 2: User Input
-	cout << "Enter 2 integer (whole) numbers: ";
-	cin >> x;
-	cin >> y;
-	//Step 3: While Loop
-
-	
+	bool runProgram =  true;	
 
 	while (runProgram)
 	{
 		//Step 4:  Equation  & Console Output
+
+		cout << "Enter 2 integer (whole) numbers: ";
+		cin >> x;
+		cin >> y;
+
 		harmMeansEquation = 2.0 * x * y / (x + y);
 
-		cout << "The harmonic mean of " << x << " and " << y << " is " << harmMeansEquation;
-
-		if (x || y == 0)
+		if (x != 0 && y != 0)
+		{
+			cout << "The harmonic mean of " << x << " and " << y << " is " << harmMeansEquation;
+		}
+		
+		if (x == 0 || y == 0)
 		{
 			runProgram = false;
 		}

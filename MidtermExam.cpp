@@ -69,6 +69,32 @@ int main() {
 
 //TODO: Function Definitions go here.
 
+/**
+ * 
+    Write a function harmonicMeans that repeatedly asks the user for two int values until at least one of them is 0. For each pair, 
+	the function should calculate and display the harmonic mean of the numbers. 
+	The harmonic mean of the numbers is the inverse of the average of the inverses. The harmonic mean of x and y can be calculated as:
+    harmonic_mean = 2.0 * x * y / (x + y);
+
+ 
+
+Sample output:
+
+Enter two integer values: 2 4
+
+The harmonic mean of 2 and 4 is 2.66667
+
+Enter two integer values: 2 6
+
+The harmonic mean of 2 and 6 is 3
+
+Enter two integer values: 2 9
+
+The harmonic mean of 2 and 9 is 3.27273
+
+Enter two integer values: 2 0
+ **/
+
 int harmonicMeans() {
 	//Step 1: Define Variables
 	int x;

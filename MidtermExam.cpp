@@ -2,9 +2,10 @@
 #include <string>
 #include <vector>
 #include <cstdlib>
-
+//TODO: If needed, extra libraries go here
 using namespace std;
 
+//TODO: Function Prototypes (calls) go here.
 
 int main() {
 	// problem 1 test
@@ -57,3 +58,5 @@ int main() {
 	system("pause");
 	return 0;
 }
+
+//TODO: Function Definitions go here.

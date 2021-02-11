@@ -108,7 +108,7 @@ int harmonicMeans() {
 
 		if (x != 0 && y != 0)
 		{
-			cout << "The harmonic mean of " << x << " and " << y << " is " << harmMeansEquation;
+			cout << "The harmonic mean of " << x << " and " << y << " is " << harmMeansEquation << endl;
 		}
 		
 		if (x == 0 || y == 0)

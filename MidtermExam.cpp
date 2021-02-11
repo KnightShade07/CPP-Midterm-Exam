@@ -70,18 +70,11 @@ int main() {
 //TODO: Function Definitions go here.
 
 int harmonicMeans() {
-	int firstNum;
-	int secondNum;
-	float calcEquation;
+	//Step 1: Define Variables
 
-	while (calcEquation != 0)
-	{
-		cout << "Enter two integer values: ";
-		cin >> firstNum;
-		cin >> secondNum;
-		calcEquation = 2.0 * firstNum * secondNum / (firstNum + secondNum);
-		cout << "The harmonic mean of" << firstNum << "and" << secondNum << "is" << calcEquation << endl;
-	}
+	//Step 2: While Loop
+
+	//Step 3 Console Output
 	
 
 }

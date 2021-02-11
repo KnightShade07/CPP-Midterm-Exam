@@ -111,7 +111,7 @@ int harmonicMeans() {
 		//Step 4:  Equation  & Console Output
 		harmMeansEquation = 2.0 * x * y / (x + y);
 
-		cout << "The harmonic mean of " << x << " and " << y << " is" << harmMeansEquation;
+		cout << "The harmonic mean of " << x << " and " << y << " is " << harmMeansEquation;
 
 		if (x || y == 0)
 		{

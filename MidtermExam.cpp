@@ -9,7 +9,7 @@ using namespace std;
 
 int harmonicMeans();
 
-string capEs( string cappedWord);
+string capEs(string cappedWord);
 
 int binaryToDecimal(int num);
 

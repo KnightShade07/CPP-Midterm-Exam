@@ -68,3 +68,19 @@ int main() {
 }
 
 //TODO: Function Definitions go here.
+
+int harmonicMeans() {
+
+}
+
+string capEs(string cappedWord) {
+
+}
+
+int binaryToDecimal(int num) {
+
+}
+
+vector<int> removeConsecutiveDuplicates(vector<int> &v){
+
+}

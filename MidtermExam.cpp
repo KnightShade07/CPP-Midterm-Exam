@@ -77,6 +77,14 @@ string capEs(string cappedWord) {
 
 }
 
+//Problem 3 Notes
+/**
+ * Do not use a string in your solution.
+ * Do not use any container such as array or vector.
+ * Also do not use any built-in base conversion functions from the system libraries.
+ * (This means stuff like std::stoi)
+ * */
+
 int binaryToDecimal(int num) {
 
 }

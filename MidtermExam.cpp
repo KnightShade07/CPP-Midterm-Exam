@@ -71,10 +71,29 @@ int main() {
 
 int harmonicMeans() {
 	//Step 1: Define Variables
+	int x;
+	int y;
+	//variable used to store our equation
+	float harmMeansEquation;
 
-	//Step 2: While Loop
+	//Step 2: User Input
+	cin >> x;
+	cin >> y;
+	//Step 3: While Loop
 
-	//Step 3 Console Output
+	while (x != 0 || y != 0)
+	{
+		//Step 4:  Equation  & Console Output
+		harmMeansEquation = 2.0 * x * y / (x + y);
+
+		cout << "The harmonic mean of " << x << " and " << y << " is" << harmMeansEquation;
+
+	}
+
+	return 0;
+	
+
+	
 	
 
 }

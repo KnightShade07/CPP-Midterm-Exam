@@ -2,6 +2,7 @@
 #include <string>
 #include <vector>
 #include <cstdlib>
+#include <algorithm>
 //TODO: If needed, extra libraries go here
 using namespace std;
 
@@ -9,6 +10,7 @@ using namespace std;
 
 int harmonicMeans();
 
+string capEs(string cappedWord);
 
 int main() {
 	// problem 1 test
@@ -124,7 +126,15 @@ int harmonicMeans() {
 }
 
 string capEs(string cappedWord) {
-
+	for (int i = 0; i < cappedWord.length(); i++)
+	{
+		if (cappedWord[i] == 'e')
+		{
+			cappedWord[i] = 'E';
+		}
+		
+	}
+	
 }
 
 //Problem 3 Notes

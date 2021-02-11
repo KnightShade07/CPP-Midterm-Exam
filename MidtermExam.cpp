@@ -7,6 +7,14 @@ using namespace std;
 
 //TODO: Function Prototypes (calls) go here.
 
+int harmonicMeans();
+
+string capEs( string cappedWord);
+
+int binaryToDecimal(int num);
+
+vector<int> removeConsecutiveDuplicates(vector<int> &vec);
+
 int main() {
 	// problem 1 test
 	harmonicMeans();

@@ -146,7 +146,26 @@ string capEs(string cappedWord) {
  * */
 
 int binaryToDecimal(int num) {
+	//Step 1: Variables
+	//this is the variable that we will return at the end of the program.
+	int binaryConversion = 0;
+	//Since we cant use things like stoi, we have to implement the base
+	//ourselves manually using an int variable.
+	int base = 1;
+	int storeNum = num;
+	//Step 2: While Loop
+	while (storeNum)
+	{
+		int last_digit = storeNum % 10;
+		storeNum = storeNum / 10;
 
+		binaryConversion += last_digit * base;
+
+		base = base * 2;
+	}
+
+	return binaryConversion;
+	
 }
 
 vector<int> removeConsecutiveDuplicates(vector<int> &v){

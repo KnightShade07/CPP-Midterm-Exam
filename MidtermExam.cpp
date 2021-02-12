@@ -174,6 +174,11 @@ vector<int> removeConsecutiveDuplicates(vector<int> &v){
 
 	for (int i = 0; i < count; i++)
 	{
+		if (/* condition */)
+		{
+			//removes element at index i.
+			v.erase(v.begin() + i);
+		}
 		
 	}
 	

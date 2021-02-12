@@ -175,9 +175,6 @@ int binaryToDecimal(int num) {
 //Note: to remove an element at index i in a vector named v, use this: v.erase(v.begin() + i);
 vector<int> removeConsecutiveDuplicates(vector<int> &v){
 	//if there is a consecutive duplicate, remove it.
-	//works on the first set of duplicates,
-	//but leaves out the duplicates on the beginning and end
-	//in the second set.
 	for (int i = 0; i < v.size(); i++)
 	{
 		if (v[i] == v[i + 1])
@@ -189,7 +186,5 @@ vector<int> removeConsecutiveDuplicates(vector<int> &v){
 		
 	}
 	
-	return v;
-	
-	
+	return v;	
 }

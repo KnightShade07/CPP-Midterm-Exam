@@ -147,7 +147,6 @@ string capEs(string cappedWord) {
 
 int binaryToDecimal(int num) {
 	//Step 1: Variables
-	int number = num;
 	//this is the variable that we will return at the end of the program.
 	int binaryConversion = 0;
 	//Since we cant use things like stoi, we have to implement the base
@@ -160,8 +159,12 @@ int binaryToDecimal(int num) {
 		int last_digit = storeNum % 10;
 		storeNum = storeNum / 10;
 
-		
+		binaryConversion += last_digit * base;
+
+		base = base * 2;
 	}
+
+	return binaryConversion;
 	
 }
 

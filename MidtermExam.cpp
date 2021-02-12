@@ -172,7 +172,7 @@ int binaryToDecimal(int num) {
 vector<int> removeConsecutiveDuplicates(vector<int> &v){
 	//if there is a consecutive duplicate, remove it.
 
-	for (int i = 0; i < count; i++)
+	for (int i = 0; i < v.size(); i++)
 	{
 		if (/* condition */)
 		{

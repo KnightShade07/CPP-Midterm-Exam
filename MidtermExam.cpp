@@ -128,7 +128,8 @@ int harmonicMeans() {
 	return 0;	
 
 }
-
+//If you can't fix capEs by 11:00 PM, just turn in what you have.
+//It's better to turn in something rather than nothing.
 string capEs(string cappedWord) {
 	for (int i = 0; i < cappedWord.length(); i++)
 	{

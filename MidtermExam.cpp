@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 #include <cstdlib>
-#include <algorithm>
+
 //TODO: If needed, extra libraries go here
 using namespace std;
 
@@ -11,6 +11,10 @@ using namespace std;
 int harmonicMeans();
 
 string capEs(string cappedWord);
+
+int binaryToDecimal(int num);
+
+vector<int> removeConsecutiveDuplicates(vector<int> &vec);
 
 int main() {
 	// problem 1 test
@@ -171,10 +175,9 @@ int binaryToDecimal(int num) {
 //Note: to remove an element at index i in a vector named v, use this: v.erase(v.begin() + i);
 vector<int> removeConsecutiveDuplicates(vector<int> &v){
 	//if there is a consecutive duplicate, remove it.
-
 	for (int i = 0; i < v.size(); i++)
 	{
-		if (/* condition */)
+		if (v[i] = v[i] + 1)
 		{
 			//removes element at index i.
 			v.erase(v.begin() + i);

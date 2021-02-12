@@ -161,10 +161,10 @@ int binaryToDecimal(int num) {
 	//Step 2: While Loop
 	while (storeNum)
 	{
-		int last_digit = storeNum % 10;
+		int modNum = storeNum % 10;
 		storeNum = storeNum / 10;
 
-		binaryConversion += last_digit * base;
+		binaryConversion += modNum * base;
 
 		base = base * 2;
 	}

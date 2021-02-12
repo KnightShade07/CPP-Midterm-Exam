@@ -9,6 +9,7 @@ using namespace std;
 //2/11/21
 //Instructor: Ken Mirdeenk
 //CPW 218 C++ Midterm Exam
+//Github Repository: https://github.com/KnightShade07/CPP-Midterm-Exam
 //Purpose: Test of your skills learned so far in C++.
 
 int harmonicMeans();

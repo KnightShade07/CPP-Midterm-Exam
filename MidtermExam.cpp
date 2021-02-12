@@ -3,10 +3,7 @@
 #include <vector>
 #include <cstdlib>
 
-//TODO: If needed, extra libraries go here
 using namespace std;
-
-//TODO: Function Prototypes (calls) go here.
 
 int harmonicMeans();
 

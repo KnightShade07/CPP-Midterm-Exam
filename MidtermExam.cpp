@@ -107,7 +107,7 @@ int harmonicMeans() {
 
 	while (runProgram)
 	{
-		//Step 4:  Equation  & Console Output
+		
 
 		cout << "Enter 2 integer (whole) numbers: ";
 		cin >> x;
@@ -178,15 +178,16 @@ int binaryToDecimal(int num) {
 
 //Note: to remove an element at index i in a vector named v, use this: v.erase(v.begin() + i);
 vector<int> removeConsecutiveDuplicates(vector<int> &v){
-	//if there is a consecutive duplicate, remove it.
+	
 	//fun fact: I forgot to add a - 1 to the 
 	//vector size, this stumped me for 45 minutes...
 	for (int i = 0; i < v.size() - 1; i++)
 	{
+		//if there is a consecutive duplicate, remove it.
 		if (v[i] == v[i + 1])
 		{
-			//removes element at index i.
 			v.erase(v.begin() + i);
+			//This i-- makes sure that no duplicates are skipped over.
 			i--;
 		}
 		
